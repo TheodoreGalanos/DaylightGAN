@@ -1,0 +1,1 @@
+python video.py --dataroot ./datasets/solarmaps_athens --results_dir ./videos/solarmaps_athens --checkpoints_dir ./checkpoints/solarmaps_athens --direction AtoB --load_size 256 --crop_size 256 --model pix2pix --name solarmaps_athens_pix2pix --num_test 3 --n_samples 25
