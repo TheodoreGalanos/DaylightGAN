@@ -1,15 +1,15 @@
 # DaylightGAN
 Daylight prediction pipeline, using Rhinoceros 3D, Grasshopper 3D, Ladybug Tools and pyTorch
 
-# Downloading the Daylight Autonomy (DA) dataset
+## Downloading the Daylight Autonomy (DA) dataset
 
 If you wish to train your own model on the DA dataset, you can download the files from this location (https://drive.google.com/open?id=1Nvw_5GrjdpDhlbf6ME32RBIAkjuAyfc4). Extract the files in cycleGAN/datasets folder.
 
-# Pretrained model
+## Pretrained model
 
 You can download the Daylight Autonomy (DA) pretrained model from this location: https://drive.google.com/open?id=16i-ZdF8BeFZ0D-BFfinrNjeiCmtRRSSO. Extract the files into cycleGAN/checkpoints folder.
 
-# Training your own model on the DA dataset
+## Training your own model on the DA dataset
 
 After extracting the dataset you can train your own model by running:
 
@@ -18,7 +18,7 @@ python train.py --dataroot ./datasets/da --name p2p_512 --checkpoints_dir ./chec
 ```
 This will train a pix2pix model on 512x512 input heightmaps, using a batch size of 4. Feel free to reduce either the batch size or the input image resolution if your GPU memory isn't enough.
 
-# Training your own model on a custom dataset
+## Training your own model on a custom dataset
 
 To train your own model you need to generate 3d geometry models using a parametric design of your choice (you can use the ParametricModel.gh file as a starting point). You will also need to run annual daylight simulations for each model, using the process detailed in the xxx.ipynb file. Finally, you can generate your input and output images using the PostProcess.gh file.
 
