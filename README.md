@@ -1,5 +1,5 @@
 <img src='imgs/daylightGAN_v1.gif' align="left" width=1024>
-
+&nbsp;
 
 
 # DaylightGAN
