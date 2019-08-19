@@ -1,5 +1,7 @@
 <img src='imgs/daylightGAN_v1.gif' align="left" width=1024>
 
+
+
 # DaylightGAN
 Daylight prediction pipeline, using Rhinoceros 3D, Grasshopper 3D, Ladybug Tools and pyTorch
 
