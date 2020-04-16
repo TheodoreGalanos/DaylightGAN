@@ -27,7 +27,7 @@ Extract the files into cycleGAN/checkpoints folder.
 
 ## Setting up the cycleGAN environment
 
-To create the virtual environment for training your own models with Pix2Pix, you can create an anaconda (https://www.anaconda.com/) environment and use the requirements.txt to set up the necessary libraries, using the command pip install requirements.txt.
+To create the virtual environment for training your own models with Pix2Pix, you can create an anaconda (https://www.anaconda.com/) environment and use the requirements.txt in the cycleGAN folder to install the necessary libraries.
 
 ## Training your own model on the DA dataset
 
@@ -42,7 +42,7 @@ This will train a pix2pix model on 512x512 input heightmaps, using a batch size 
 
 To train your own model you need to generate 3d geometry models using a parametric design of your choice (you can use the ParametricModel.gh file as a starting point). You will also need to run annual daylight simulations for each model, using the process detailed in the Run Daylight Simulation with Honeybee and Ladybug.ipynb file. Finally, you can generate your input and output images using the PostProcess.gh file.
 
-After you have all your images, you can use a paired image dataset using the xxx.ipynb file. Make sure to save the folders in cycleGAN/datasets under the name of your choosing, e.g. cycleGAN/datasets/yourNameHere.
+After you have all your images, you can use a paired image dataset using the Create paired image dataset from simulation results.ipynb file. Make sure to save the folders in cycleGAN/datasets under the name of your choosing, e.g. cycleGAN/datasets/yourNameHere.
 
 To train a 512x512 pix2pix model you can run the following command:
 
