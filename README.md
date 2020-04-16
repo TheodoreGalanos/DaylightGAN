@@ -24,7 +24,7 @@ This will train a pix2pix model on 512x512 input heightmaps, using a batch size 
 
 ## Training your own model on a custom dataset
 
-To train your own model you need to generate 3d geometry models using a parametric design of your choice (you can use the ParametricModel.gh file as a starting point). You will also need to run annual daylight simulations for each model, using the process detailed in the xxx.ipynb file. Finally, you can generate your input and output images using the PostProcess.gh file.
+To train your own model you need to generate 3d geometry models using a parametric design of your choice (you can use the ParametricModel.gh file as a starting point). You will also need to run annual daylight simulations for each model, using the process detailed in the Run Daylight Simulation with Honeybee and Ladybug.ipynb file. Finally, you can generate your input and output images using the PostProcess.gh file.
 
 After you have all your images, you can use a paired image dataset using the xxx.ipynb file. Make sure to save the folders in cycleGAN/datasets under the name of your choosing, e.g. cycleGAN/datasets/yourNameHere.
 
