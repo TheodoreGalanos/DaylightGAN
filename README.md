@@ -7,11 +7,21 @@ Real-time daylight prediction pipeline, using Rhinoceros 3D, Grasshopper 3D, Lad
 
 ## Downloading the Daylight Autonomy (DA) dataset
 
-If you wish to train your own model on the DA dataset, you can download the files from this location: https://drive.google.com/open?id=1_ND3DuOmRmeSiFpVpRmvooqeJtneHxwn. Extract the files in cycleGAN/datasets folder.
+If you wish to train your own model on the DA datasets, you can download the files from the following locations:
+
+Copenhagen: 
+Sydney: 
+
+Extract the files in cycleGAN/datasets folder.
 
 ## Pretrained model
 
-You can download the Daylight Autonomy (DA) pretrained model from this location: https://drive.google.com/open?id=1_ND3DuOmRmeSiFpVpRmvooqeJtneHxwn. Extract the files into cycleGAN/checkpoints folder.
+You can also download the pretrained models from the following locations: 
+
+Copenhagen: 
+Sydney: 
+
+Extract the files into cycleGAN/checkpoints folder.
 
 ## Setting up the cycleGAN environment
 
