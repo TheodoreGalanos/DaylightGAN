@@ -20,6 +20,7 @@ Extract the files in cycleGAN/datasets folder.
 You can also download the pretrained models from the following locations: 
 
 Copenhagen: https://bit.ly/2REcj6Y
+
 Sydney: https://bit.ly/2VfURYJ
 
 Extract the files into cycleGAN/checkpoints folder.
