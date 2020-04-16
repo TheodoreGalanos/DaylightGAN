@@ -62,8 +62,8 @@ Again feel free to use a lower resolution or a smaller batch size to fit the mod
 
 To visualize your models perfromance during training you can open a new anaconda prompt inside your environment and type
 
-'''python
+```python
 python -m visdom.server
-'''
+```
 
 You can then navigate to the location shown in the terminal with your browser.
