@@ -7,10 +7,10 @@ Real-time daylight prediction pipeline, using Rhinoceros 3D, Grasshopper 3D, Lad
 
 This work heavily relies on the work referenced in the papers below. Additionally, the official repo implementation (included in this repo for convenience) can be found here: https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix.
 
-Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks.
+Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks.  
 Jun-Yan Zhu*, Taesung Park*, Phillip Isola, Alexei A. Efros. In ICCV 2017. (* equal contributions)
 
-Image-to-Image Translation with Conditional Adversarial Networks.
+Image-to-Image Translation with Conditional Adversarial Networks.  
 Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros. In CVPR 2017.
 
 ## Downloading the Daylight Autonomy (DA) dataset
