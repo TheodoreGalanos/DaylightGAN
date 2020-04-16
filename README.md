@@ -9,8 +9,8 @@ Real-time daylight prediction pipeline, using Rhinoceros 3D, Grasshopper 3D, Lad
 
 If you wish to train your own model on the DA datasets, you can download the files from the following locations:
 
-Copenhagen: 
-Sydney: 
+Copenhagen: https://bit.ly/34GmXzg
+Sydney: https://bit.ly/2yXv2ng
 
 Extract the files in cycleGAN/datasets folder.
 
@@ -18,8 +18,8 @@ Extract the files in cycleGAN/datasets folder.
 
 You can also download the pretrained models from the following locations: 
 
-Copenhagen: 
-Sydney: 
+Copenhagen: https://bit.ly/2REcj6Y
+Sydney: https://bit.ly/2VfURYJ
 
 Extract the files into cycleGAN/checkpoints folder.
 
