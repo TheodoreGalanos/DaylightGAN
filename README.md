@@ -13,6 +13,10 @@ If you wish to train your own model on the DA dataset, you can download the file
 
 You can download the Daylight Autonomy (DA) pretrained model from this location: https://drive.google.com/open?id=1_ND3DuOmRmeSiFpVpRmvooqeJtneHxwn. Extract the files into cycleGAN/checkpoints folder.
 
+## Setting up the cycleGAN environment
+
+To create the virtual environment for training your own models with Pix2Pix, you can create an anaconda (https://www.anaconda.com/) environment and use the requirements.txt to set up the necessary libraries, using the command pip install requirements.txt.
+
 ## Training your own model on the DA dataset
 
 After extracting the dataset you can train your own model by running:
@@ -35,3 +39,11 @@ python train.py --dataroot ./datasets/yourNameHere --name p2p_512 --checkpoints_
 ```
 
 Again feel free to use a lower resolution or a smaller batch size to fit the model on your GPU.
+
+To visualize your models perfromance during training you can open a new anaconda prompt inside your environment and type
+
+'''python
+python -m visdom.server
+'''
+
+You can then navigate to the location shown in the terminal with your browser.
